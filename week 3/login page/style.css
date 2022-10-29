@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8cfcf;
+}
+.head {
+  text-align: center;
+  color: blueviolet;
+  margin: 15px;
+}
+input {
+  padding: 8px;
+  border-radius: 10px;
+}
+button {
+  margin: 20px;
+  padding: 10px;
+  background-color: #000000;
+  text-align: center;
+  color: white;
+  border-radius: 4px;
+}
+a {
+  margin: 30px;
+  color: white;
+  text-decoration: none;
+}
