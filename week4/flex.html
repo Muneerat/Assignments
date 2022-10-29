@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zuri Task</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;400;500;600;700;800;900&display=swap");
+      :root {
+        --Bright-orange: hsl(31, 77%, 52%);
+        --Dark-cyan: hsl(184, 100%, 22%);
+        --Very-dark-cyan: hsl(179, 100%, 13%);
+        --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+        --Very-light--gray: hsl(0, 0%, 95%);
+        /* (background, headings, buttons) */
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Lexend Deca", sans-serif;
+      }
+      .container {
+        display: flex;
+        background-color: var(--Very-light--gray);
+        justify-content: center;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .box1 {
+        background-color: var(--Bright-orange);
+        width: 23%;
+        height: 450px;
+        padding: 40px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+      }
+      .box2 {
+        background-color: var(--Dark-cyan);
+        width: 23%;
+        height: 450px;
+        padding: 40px;
+      }
+      .box3 {
+        background-color: var(--Very-dark-cyan);
+        width: 23%;
+        height: 450px;
+        padding: 40px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+      .header {
+        color: var(--Very-light--gray);
+        padding: 20px 0;
+      }
+      .text {
+        padding: 10px 0;
+        font-size: 15px;
+        color: var(--Very-light--gray);
+        line-height: 25px;
+        /* text-align: justify; */
+      }
+      button {
+        margin: 20px 0;
+        padding: 15px 35px;
+        border-radius: 20px;
+        border: none;
+        background-color: var(--Very-light--gray);
+        color: var(--Bright-orange);
+      }
+      .img3 {
+        color: var(--Very-dark-cyan);
+      }
+      .button2 {
+        color: var(--Dark-cyan);
+      }
+      .button3 {
+        color: var(--Very-dark-cyan);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1">
+        <img src="icon-sedans.svg" alt="image" />
+        <h1 class="header">SEDANS</h1>
+        <p class="text">
+          Choose a sedan for its affordability and excellent fuel economy. Ideal
+          for cruising in the city or on your next road trip.
+        </p>
+        <button>Learn More</button>
+      </div>
+      <div class="box2">
+        <img src="icon-suvs.svg" alt="image" />
+        <h1 class="header">SUVS</h1>
+        <p class="text">
+          Take an SUV for its spacious interior,power, and versatility. Perfect
+          for your next family vacation and off-road adventures.
+        </p>
+        <button class="button3">Learn More</button>
+      </div>
+      <div class="box3">
+        <img src="icon-sedans.svg" alt="image" class="img3" />
+        <h1 class="header">LUXURY</h1>
+        <p class="text">
+          Cruise in the best car brands without the bloated prices. Enjoy tha
+          enhanced comfort of a luxury rental and arrive in style.
+        </p>
+        <button class="button3">Learn More</button>
+      </div>
+    </div>
+  </body>
+</html>
